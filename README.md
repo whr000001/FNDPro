@@ -1,7 +1,7 @@
 # FNDPro Repository
 Repository for DASFAA 2024: FNDPro: Evaluating the Importance of Propagations during Fake News Spread
 
-We plan to upload the completed code before July 20th.
+We plan to upload the completed code before August 20th.
 
 # Updating
 ### Before
