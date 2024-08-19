@@ -6,7 +6,7 @@ FNDPro aims to address two main challenges in fake news detection: the **disguis
 ## Dataset & Preprocess
 We use a modified [Fakenewsnet dataset](https://github.com/KaiDMML/FakeNewsNet?tab=readme-ov-file). Based on this original dataset, we collected more media related to the news spread: news, source, tweet, and user. Besides, we also collect five relations: *publish* relation between source and news; *comment* relation between comment and news; *post* relation between user and comment; *reply* relation between comment and comment; and *retweet* relation between comment and comment.
 
-To ensure reproducibility, we make the dataset public on [Google Drive](https://drive.google.com/drive/folders/1TVcYw93JwesL6O5Z1RuDDasJ2-BfU8L1?usp=sharing). 
+To ensure reproducibility, we make the dataset public on [Google Drive](https://drive.google.com/drive/folders/1TVcYw93JwesL6O5Z1RuDDasJ2-BfU8L1?usp=sharing). You could directly download the processed dataset and the dataset split.
 
 To protect privacy and copyright, we only provide the data after feature extraction, and can only be used for research purposes.
 
