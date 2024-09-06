@@ -1,5 +1,5 @@
 # FNDPro Repository
-Repository for DASFAA 2024: FNDPro: Evaluating the Importance of Propagations during Fake News Spread
+Repository for DASFAA 2024: [FNDPro: Evaluating the Importance of Propagations during Fake News Spread](https://link.springer.com/chapter/10.1007/978-981-97-5572-1_4)
 
 # Basic Usage
 FNDPro aims to address two main challenges in fake news detection: the **disguised content** and the **echo chamber phenomenon**. Thus FNDPro proposes to model the news propagation as a heterogeneous graph named **news propagation network** with multiple media and employs a **propagation transformer** module to evaluate the importance of propagation during news spread.
@@ -30,7 +30,14 @@ data = obtain_hetero_data(medias=['news', 'tweet'], data_dir=data_dir)
 # Citation
 If you find our work interesting/helpful, please consider citing:
 ```
-TBD
+@inproceedings{wan2024fndpro,
+  title={FNDPro: Evaluating the Importance of Propagations during Fake News Spread},
+  author={Wan, Herun and Wang, Ningnan and Zhao, Xiang and Li, Rui and Yang, Hui and Luo, Minnan},
+  booktitle={International Conference on Database Systems for Advanced Applications},
+  pages={52--67},
+  year={2024},
+  organization={Springer}
+}
 ```
 # Questions?
 Feel free to open issues in this repository! Instead of emails, Github issues are much better at facilitating a conversation between you and our team to address your needs. You can also contact Herun Wan through `wanherun@stu.xjtu.edu.cn`.
